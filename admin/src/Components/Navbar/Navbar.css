@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+}
+
+.nav-logo {
+    width: 200px;
+}
+
+.avatar-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .avatar-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .avatar {
+    width: 50px; 
+    height: 50px;  
+    border-radius: 50%; /* Tạo hình tròn */
+    object-fit: cover; /* Giữ tỷ lệ ảnh */
+    margin-right: 8px; /* Khoảng cách giữa avatar và mũi tên */
+  }
+  
+  .dropdown-arrow {
+    font-size: 12px;
+    color: #333; /* Màu sắc của mũi tên */
+  }
+  
+  .avatar-dropdown:hover .dropdown-arrow {
+    color: #007bff; /* Thay đổi màu khi hover */
+  }
